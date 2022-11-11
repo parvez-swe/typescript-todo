@@ -26,6 +26,9 @@ const TodoList: React.FC<props> = ({ todos, setTodos }: props) => {
           </div>
         )}
       </Droppable>
+      <div>
+        <h1>There will be completed task</h1>
+      </div>
       {/* <Droppable droppableId="TodosRemove">
         {(provided) => (
           <div
